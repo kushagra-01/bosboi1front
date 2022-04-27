@@ -68,6 +68,8 @@ else{
     
     <TableContainer component={Paper}>
         <TableCell onClick={(()=>{navigate("/create")})}>create form</TableCell>
+        <TableCell onClick={(()=>{navigate("/login")})}>Login</TableCell>
+        <TableCell onClick={(()=>{navigate("/signup")})}>Signup</TableCell>
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
           <TableRow>
